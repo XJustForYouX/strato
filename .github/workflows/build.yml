@@ -2,9 +2,9 @@
 name: Build
 
 on:
-  workflow_dispatch:
   push: 
     branches: [ jit ]
+  workflow_dispatch:
 
 jobs:
   build:
